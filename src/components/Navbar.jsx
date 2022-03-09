@@ -6,6 +6,7 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
 const Container = styled.div`
     height: 60px;
+    margin-bottom: 15px;
 `
 const Wrapper = styled.div`
     padding: 20px 40px;
