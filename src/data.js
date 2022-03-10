@@ -39,3 +39,38 @@ export const categories = [
         title: "LOUNGEWEARS"
     }
 ]
+
+export const products = [
+    {
+        id: 1,
+        img: "https://i.ibb.co/9VKBnLL/IMG-0117.jpg"
+    },
+    {
+        id: 2,
+        img: "https://i.ibb.co/9VKBnLL/IMG-0117.jpg"
+    },
+    {
+        id: 3,
+        img: "https://i.ibb.co/9VKBnLL/IMG-0117.jpg"
+    },
+    {
+        id: 4,
+        img: "https://i.ibb.co/9VKBnLL/IMG-0117.jpg"
+    },
+    {
+        id: 5,
+        img: "https://i.ibb.co/9VKBnLL/IMG-0117.jpg"
+    },
+    {
+        id: 6,
+        img: "https://i.ibb.co/9VKBnLL/IMG-0117.jpg"
+    },
+    {
+        id: 7,
+        img: "https://i.ibb.co/9VKBnLL/IMG-0117.jpg"
+    },
+    {
+        id: 8,
+        img: "https://i.ibb.co/9VKBnLL/IMG-0117.jpg"
+    }
+]
