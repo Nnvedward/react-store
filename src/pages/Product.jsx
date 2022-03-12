@@ -123,10 +123,10 @@ const Product = () => {
         <Announcement />
         <Wrapper>
             <ImgContainer>
-                <Image src="https://i.ibb.co/9VKBnLL/IMG-0117.jpg"/>
+                <Image src="https://i.ibb.co/f2fGSr2/IMG-2303.jpg"/>
             </ImgContainer>
             <InfoContainer>
-                <Title>Denim Jumpsuit</Title>
+                <Title>Gucci T-shirt</Title>
                 <Description>There are many variations of Lorem Ipsum available, but the majority have suffered alternation in some fprm, by injection humor, or randomised words which don't look even slightly believable</Description>
                 <Price>$ 20</Price>
                 <FilterContainer>

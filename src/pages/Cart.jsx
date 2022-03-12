@@ -174,11 +174,11 @@ const Cart = () => {
                 <Info>
                     <Product>
                         <ProductDetail>
-                            <Image src="https://i.ibb.co/9VKBnLL/IMG-0117.jpg"/>
+                            <Image src="https://i.ibb.co/jGx1j4m/IMG-2301.jpg"/>
                             <Details>
-                                <ProductName><b>Product:</b> GUCCI JACKET</ProductName>
+                                <ProductName><b>Product:</b> BASEBALL JACKET</ProductName>
                                 <ProductId><b>ID:</b> 51516665498</ProductId>
-                                <ProductColor color="black"/>
+                                <ProductColor color="GREEN"/>
                                 <ProductSize><b>Size:</b> M</ProductSize>
                             </Details>
                         </ProductDetail>
@@ -194,12 +194,12 @@ const Cart = () => {
                     <Hr/>
                     <Product>
                         <ProductDetail>
-                            <Image src="https://i.ibb.co/9VKBnLL/IMG-0117.jpg"/>
+                            <Image src="https://i.ibb.co/fNHtDGM/IMG-2296.jpg"/>
                             <Details>
-                                <ProductName><b>Product:</b> NIKE SNEAKERS</ProductName>
+                                <ProductName><b>Product:</b> JORDAN SNEAKERS</ProductName>
                                 <ProductId><b>ID:</b> 51516665498</ProductId>
-                                <ProductColor color="lightgreen"/>
-                                <ProductSize><b>Size:</b> 35.3</ProductSize>
+                                <ProductColor color="black"/>
+                                <ProductSize><b>Size:</b> 35</ProductSize>
                             </Details>
                         </ProductDetail>
                         <PriceDetail>
@@ -240,3 +240,4 @@ const Cart = () => {
 }
 
 export default Cart
+

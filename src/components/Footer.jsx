@@ -71,7 +71,7 @@ const ContactItem = styled.div`
 `
 
 const Payment = styled.img`
-    width: 100%;
+    width: 50%;
     height: 40px;
 `
 
@@ -118,10 +118,11 @@ const Footer = () => {
                 <ContactItem><FontAwesomeIcon style={{marginRight: "10px"}} icon={faLocationDot}/> Enugu, Nigeria</ContactItem>
                 <ContactItem><FontAwesomeIcon style={{marginRight: "10px"}} icon={faPhone}/> +234 816 457 8471</ContactItem>
                 <ContactItem><FontAwesomeIcon style={{marginRight: "10px"}} icon={faEnvelope}/> nnvedward@gmail.com</ContactItem>
-                <Payment src="https://i.ibb.co/9VKBnLL/IMG-0117.jpg"/>
+                <Payment src="https://i.ibb.co/8Mr6nxH/IMG-2314.jpg"/>
             </Right>
         </Container>
     )
 }
 
 export default Footer
+
