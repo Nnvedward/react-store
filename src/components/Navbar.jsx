@@ -39,8 +39,24 @@ const MenuItem = styled.div`
     font-style: 14px;
     cursor: pointer;
     margin-left: 25px;
+    position: relative;
     ${mobile({ fontSize: "14px", marginLeft: "25px" })}
 
+`
+const CartIcon = styled.span`
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -16px;
+    right: -12px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 600;
 `
 
 
@@ -56,6 +72,7 @@ const Navbar = () => {
                     <MenuItem>SIGN IN</MenuItem>
                     <MenuItem>
                        <FontAwesomeIcon icon={faCartShopping} />
+                       <CartIcon>2</CartIcon>
                     </MenuItem>
                 </Right>
             </Wrapper>
