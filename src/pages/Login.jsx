@@ -45,6 +45,11 @@ const Button = styled.button`
     color: white;
     cursor: pointer;
 `
+const LinkContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+`
 const Link = styled.a`
     margin: 5px 0px;
     font-size: 12px;
@@ -59,9 +64,11 @@ const Login = () => {
                 <Form>
                     <Input placeholder="username" />
                     <Input placeholder="password" />
-                    <Button>CREATE</Button>
-                    <Link>FORGOT PASSWORD?</Link>
-                    <Link>SIGN UP</Link>
+                    <Button>LOGIN</Button>
+                    <LinkContainer>
+                        <Link>FORGOT PASSWORD?</Link>
+                        <Link>SIGN UP</Link>
+                    </LinkContainer>
                 </Form>
             </Wrapper>
         </Container>

@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { mobile } from '../responsive'
+import { Link } from 'react-router-dom';
+
 
 const Container = styled.div`
     height: 60px;
@@ -65,15 +67,23 @@ const Navbar = () => {
         <Container>
             <Wrapper>
                 <Left>
-                    <Logo>PRIME.</Logo>
+                    <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+                        <Logo>PRIME.</Logo>
+                    </Link>
                 </Left>
                 <Right>
-                    <MenuItem>REGISTER</MenuItem>
-                    <MenuItem>SIGN IN</MenuItem>
-                    <MenuItem>
-                       <FontAwesomeIcon icon={faCartShopping} />
-                       <CartIcon>2</CartIcon>
-                    </MenuItem>
+                    <Link style={{ textDecoration: "none", color: "inherit" }} to="/register">
+                        <MenuItem>REGISTER</MenuItem>
+                    </Link>
+                    <Link style={{ textDecoration: "none", color: "inherit" }} to="/login">
+                        <MenuItem>SIGN IN</MenuItem>
+                    </Link>
+                    <Link style={{ textDecoration: "none", color: "inherit" }} to="/cart">
+                        <MenuItem>
+                            <FontAwesomeIcon icon={faCartShopping} />
+                            <CartIcon>2</CartIcon>
+                        </MenuItem>
+                    </Link>
                 </Right>
             </Wrapper>
         </Container>
