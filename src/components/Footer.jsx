@@ -1,4 +1,5 @@
-import { faCircle, faEnvelope, faLocationDot, faPhone, faSquare, faTriangleCircleSquare, faX } from "@fortawesome/free-solid-svg-icons"
+import {  faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons"
+import { faFacebook, faInstagram, faTwitter,faPinterest  } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import styled from "styled-components"
 import { mobile } from "../responsive"
@@ -85,16 +86,16 @@ const Footer = () => {
                 </Description>
                 <SocialContainer>
                     <SocialIcon color="3b5999">
-                        <FontAwesomeIcon icon={faTriangleCircleSquare} />
+                        <FontAwesomeIcon icon={faFacebook} />
                     </SocialIcon>
                     <SocialIcon color="e4405f">
-                        <FontAwesomeIcon icon={faCircle} />
+                        <FontAwesomeIcon icon={faInstagram} />
                     </SocialIcon>
                     <SocialIcon color="55acee">
-                        <FontAwesomeIcon icon={faSquare} />
+                        <FontAwesomeIcon icon={faTwitter} />
                     </SocialIcon>
                     <SocialIcon color="e60023">
-                        <FontAwesomeIcon icon={faX} />
+                        <FontAwesomeIcon icon={faPinterest} />
                     </SocialIcon>
                 </SocialContainer>
             </Left>
@@ -118,11 +119,10 @@ const Footer = () => {
                 <ContactItem><FontAwesomeIcon style={{marginRight: "10px"}} icon={faLocationDot}/> Enugu, Nigeria</ContactItem>
                 <ContactItem><FontAwesomeIcon style={{marginRight: "10px"}} icon={faPhone}/> +234 816 457 8471</ContactItem>
                 <ContactItem><FontAwesomeIcon style={{marginRight: "10px"}} icon={faEnvelope}/> nnvedward@gmail.com</ContactItem>
-                <Payment src="https://i.ibb.co/8Mr6nxH/IMG-2314.jpg"/>
+                <Payment src="https://i.ibb.co/s1N33LP/payment.jpg"/>
             </Right>
         </Container>
     )
 }
 
 export default Footer
-
